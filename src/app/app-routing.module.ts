@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomepageComponent } from './view/components/homepage/homepage.component';
+import {BlanckPageComponent} from './view/components/blanck-page/blanck-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: HomepageComponent},
+  {path: 'blanck', component: BlanckPageComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

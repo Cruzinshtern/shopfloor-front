@@ -1,0 +1,19 @@
+.homepage {
+  background: #EFEFEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.homepage span {
+  font-weight: bold;
+}
+
+.homepage-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

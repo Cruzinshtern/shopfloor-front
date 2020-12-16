@@ -1,0 +1,42 @@
+<div class="homepage">
+  <div>
+    <p>Welcome, <span>John Doe</span></p>
+  </div>
+  <div class="homepage-list">
+    <app-homepage-item *ngFor="let item of items" [icon]="item.image" [item]="item"></app-homepage-item>
+
+    <ng-template #monitoring>
+      <app-monitoring></app-monitoring>
+    </ng-template>
+
+    <ng-template #booklet>
+      <app-booklet></app-booklet>
+    </ng-template>
+
+    <ng-template #documents>
+      <app-documents></app-documents>
+    </ng-template>
+
+    <ng-template #service>
+      <app-service></app-service>
+    </ng-template>
+
+    <ng-template #timeline>
+      <app-timeline></app-timeline>
+    </ng-template>
+
+    <ng-template #maintenance>
+      <app-maintenance></app-maintenance>
+    </ng-template>
+
+    <ng-template #webshop>
+      <app-webshop></app-webshop>
+    </ng-template>
+
+    <ng-template #configurator>
+      <app-configurator></app-configurator>
+    </ng-template>
+  </div>
+</div>
+
+

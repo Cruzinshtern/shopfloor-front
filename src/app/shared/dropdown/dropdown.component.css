@@ -1,0 +1,30 @@
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background: #FFFFFF;
+  padding: 10px;
+  font-size: 10px;
+}
+
+
+
+.dropdown p:hover {
+  cursor: pointer;
+}
+
+.dropdown-buttons {
+  border: none;
+  background: #FFFFFF;
+  outline: none;
+}

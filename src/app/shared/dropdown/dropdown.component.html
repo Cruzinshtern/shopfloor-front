@@ -1,0 +1,11 @@
+<div class="dropdown-wrapper">
+
+  <button (click)="toggleDropdown()" class="dropdown-buttons">
+    <ng-content></ng-content>
+  </button>
+  <div class="dropdown" *ngIf="this.isDropdownActive">
+    <div *ngFor="let item of items" >
+      <p (click)="onSelect(item)">{{ item.display }}</p>
+    </div>
+  </div>
+</div>

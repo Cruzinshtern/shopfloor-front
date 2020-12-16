@@ -1,0 +1,56 @@
+.header-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.left-part-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 20px;
+}
+
+.left-part-nav-stick {
+  font-weight: bold;
+  color: #0090D4;
+}
+
+.left-part-nav p {
+  padding: 5px;
+  margin: 0 5px 0 5px;
+}
+.left-part-nav span {
+  font-weight: bold;
+  margin: 0 5px 0 5px;
+}
+
+.burger-menu-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.right-part-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-part-nav img {
+  padding: 5px;
+}
+
+.gear-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.gear-icon:hover {
+  cursor: pointer;
+}
+
+.image-icon {
+  width: 32px;
+  height: 32px;
+}

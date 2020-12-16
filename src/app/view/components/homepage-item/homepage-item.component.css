@@ -1,0 +1,19 @@
+.homepage-item {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+  width: 237px;
+  height: 236px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.homepage-item p {
+  margin-top: 20px;
+}
+
+.title {
+  font-weight: bold;
+}

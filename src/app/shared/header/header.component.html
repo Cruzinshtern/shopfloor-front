@@ -1,0 +1,17 @@
+<div class="header-component">
+  <div class="left-part-nav">
+    <img src="assets/img/Gruppe%20525.svg" alt="img" class="burger-menu-icon">
+    <p>SHOPFLOOR.IO</p>
+    <p class="left-part-nav-stick">|</p>
+    <span>Hub</span>
+  </div>
+
+  <div class="right-part-nav">
+    <app-dropdown [items]="items" (selectItem)="onSelect($event)">
+      <img src="assets/img/Hub-Settings.svg" alt="img" class="gear-icon">
+    </app-dropdown>
+    <app-dropdown [items]="items" (selectItem)="onSelect($event)">
+      <img src="assets/img/Komponente%202%20–%202@2x.png" alt="img" class="image-icon">
+    </app-dropdown>
+  </div>
+</div>
