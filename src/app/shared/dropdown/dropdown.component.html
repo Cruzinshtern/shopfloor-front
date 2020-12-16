@@ -4,7 +4,7 @@
     <ng-content></ng-content>
   </button>
   <div class="dropdown" *ngIf="this.isDropdownActive">
-    <div *ngFor="let item of items" >
+    <div *ngFor="let item of items">
       <p (click)="onSelect(item)">{{ item.display }}</p>
     </div>
   </div>

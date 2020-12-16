@@ -8,16 +8,18 @@
   right: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   height: auto;
-  width: auto;
+  width: 130px;
   background: #FFFFFF;
   padding: 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
-
+.dropdown p {
+  padding: 5px;
+}
 
 .dropdown p:hover {
   cursor: pointer;

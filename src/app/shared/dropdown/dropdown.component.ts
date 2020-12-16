@@ -1,5 +1,4 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
-import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-dropdown',
@@ -8,16 +7,14 @@ import {Router} from '@angular/router';
 })
 export class DropdownComponent {
   @Input()
-  items = [];
+  items: { display: string, [key: string]: any }[] = [];
 
   isDropdownActive = false;
 
   @Output()
   selectItem = new EventEmitter();
 
-  constructor(
-    private router: Router
-  ) { }
+  constructor() { }
 
   toggleDropdown(): void {
     this.isDropdownActive = !this.isDropdownActive;
@@ -25,7 +22,6 @@ export class DropdownComponent {
 
   onSelect(item): void {
     this.selectItem.emit(item);
-    this.router.navigate([item.path]);
     this.toggleDropdown();
   }
 }
