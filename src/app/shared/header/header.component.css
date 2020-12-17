@@ -54,3 +54,7 @@
   width: 32px;
   height: 32px;
 }
+
+.image-icon:hover {
+  cursor: pointer;
+}

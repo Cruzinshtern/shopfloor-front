@@ -27,6 +27,17 @@ export class HeaderComponent {
     }
   ];
 
+  profileItems = [
+    {
+      display: 'Profil',
+      path: ''
+    },
+    {
+      display: 'Logout',
+      path: ''
+    },
+  ];
+
   onSelect(item): void {
     this.router.navigate([item.path]);
   }

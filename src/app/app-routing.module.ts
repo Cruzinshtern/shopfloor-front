@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomepageComponent } from './view/components/homepage/homepage.component';
-import {BlanckPageComponent} from './view/components/blanck-page/blanck-page.component';
+import { HomepageComponent } from './view/homepage/homepage.component';
+import {BlanckPageComponent} from './view/blanck-page/blanck-page.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
