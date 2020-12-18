@@ -4,8 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ViewModule } from './view/view.module';
-
 import { SharedModule } from './shared/shared.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SettingsModule } from './view/settings/settings.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,11 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     AppRoutingModule,
     ViewModule,
-    SharedModule
+    SharedModule,
+    FormsModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    SettingsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,15 @@
+<app-settings-navbar>
+  <ng-template #right>
+        <button class="btn btn-primary">
+          + Add tile
+        </button>
+  </ng-template>
+</app-settings-navbar>
+
+<div class="tile-configurator-component">
+  <app-tile-configurator-item *ngFor="let item of items" [icon]="item.image" [item]="item"></app-tile-configurator-item>
+
+  <ng-template #monitoring>
+    <app-monitoring></app-monitoring>
+  </ng-template>
+</div>

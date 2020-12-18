@@ -1,0 +1,29 @@
+<app-settings-navbar>
+  <ng-template #right>
+    <p>Cancel</p>
+    <button class="btn btn-primary">
+      Save changes
+    </button>
+  </ng-template>
+</app-settings-navbar>
+
+<div class="settings-component">
+    <div class="settings-body">
+      <form [formGroup]="settingsForm">
+        <label for="prm-color">Primary color</label>
+        <input type="text" name="prm-color" id="prm-color" formControlName="prm_color">
+        <label for="bcg-color">Background color</label>
+        <input type="text" name="bcg-color" id="bcg-color" formControlName="bcg_color">
+        <div>
+          <input type="checkbox" id="check" name="check">
+          <label for="check">Light welcome text?</label>
+        </div>
+        <label for="bcg-image">Background image</label>
+        <input type="search" name="bcg-image" id="bcg-image" formControlName="bcg_image">
+        <img src="assets/img/70545796_m/70545796_m@2x.png" alt="img">
+      </form>
+    </div>
+  </div>
+
+
+

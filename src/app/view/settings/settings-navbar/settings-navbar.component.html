@@ -1,0 +1,20 @@
+<div class="settings-navbar">
+  <div class="settings-navbar-left">
+    <nav class="nav nav-pills nav-fill">
+      <a class="nav-arr nav-link" href=""> < </a>
+      <a class="nav-item nav-link">Settings</a>
+      <a class="nav-item nav-link" routerLink="/settings/background-settings" (click)="onGenSetClick()">General settings</a>
+      <a class="nav-item nav-link" routerLink="/settings/tile-configuration" (click)="onTilConClick()">Tile configurator</a>
+    </nav>
+  </div>
+  <div class="settings-navbar-right">
+    <ng-container *ngTemplateOutlet="rightTemplate"></ng-container>
+<!--    <p>Cancel</p>-->
+<!--    <button class="btn btn-primary">-->
+<!--      Save changes-->
+<!--    </button>-->
+<!--    <button class="btn btn-primary">-->
+<!--      + Add tile-->
+<!--    </button>-->
+  </div>
+</div>

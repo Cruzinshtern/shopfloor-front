@@ -1,0 +1,70 @@
+@import "colors";
+
+.settings-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 40px 40px 0 40px;
+  font-size: 12px;
+  background: $white;
+}
+
+.settings-navbar-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.back-arrow {
+  font-weight: bolder;
+}
+
+.page-name {
+  font-weight: bolder;
+}
+
+.settings-navbar-left p {
+  margin: 0 10px 0 10px;
+}
+
+.settings-navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+//.settings-navbar-right p {
+//  margin: 0 10px 0 10px;
+//  font-weight: bold;
+//  text-decoration: underline;
+//}
+//
+//.settings-navbar-right p:hover {
+//  cursor: pointer;
+//}
+
+.settings-navbar-right button {
+  padding: 8px;
+  //border: thin solid #0090D4;
+  font-size: 10px;
+}
+
+.settings-navbar-right button:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #0090D4;
+}
+
+.nav-arr {
+  color: black;
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+

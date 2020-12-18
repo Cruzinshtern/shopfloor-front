@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-maintenance',
   templateUrl: './maintenance.component.svg',
-  styleUrls: ['./maintenance.component.css']
+  styleUrls: ['./maintenance.component.scss']
 })
 export class MaintenanceComponent implements OnInit {
 

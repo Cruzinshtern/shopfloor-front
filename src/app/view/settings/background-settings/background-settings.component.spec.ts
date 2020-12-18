@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BlanckPageComponent } from './blanck-page.component';
+import { BackgroundSettingsComponent } from './background-settings.component';
 
-describe('BlanckPageComponent', () => {
-  let component: BlanckPageComponent;
-  let fixture: ComponentFixture<BlanckPageComponent>;
+describe('BackgroundSettingsComponent', () => {
+  let component: BackgroundSettingsComponent;
+  let fixture: ComponentFixture<BackgroundSettingsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BlanckPageComponent ]
+      declarations: [ BackgroundSettingsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BlanckPageComponent);
+    fixture = TestBed.createComponent(BackgroundSettingsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

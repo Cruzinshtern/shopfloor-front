@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
 
@@ -15,7 +15,7 @@ export class HeaderComponent {
   items = [
     {
       display: 'Hub settings',
-      path: '/blanck'
+      path: '/settings/background-settings'
     },
     {
       display: 'User management',

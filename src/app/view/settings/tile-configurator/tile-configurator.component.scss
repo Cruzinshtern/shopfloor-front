@@ -1,0 +1,20 @@
+@import "colors";
+
+.tile-configurator-component {
+  background: $white;
+  margin: 0 40px 0 40px;
+  padding: 30px;
+  height: auto;
+}
+
+.btn {
+  padding: 8px;
+  width: 150px;
+  font-size: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #0090D4;
+}

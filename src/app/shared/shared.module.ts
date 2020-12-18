@@ -12,7 +12,7 @@ import { WebshopComponent } from './icons/webshop/webshop.component';
 import { ConfiguratorComponent } from './icons/configurator/configurator.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import {RouterModule} from '@angular/router';
-
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 
 @NgModule({
@@ -31,6 +31,7 @@ import {RouterModule} from '@angular/router';
     DropdownComponent
   ],
   imports: [
+    ButtonsModule.forRoot(),
     CommonModule,
     RouterModule
   ]

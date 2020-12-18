@@ -1,0 +1,59 @@
+@import "colors";
+
+.tile-configurator-item-component {
+  margin: 5px;
+  display: flex;
+  padding: 20px;
+  font-size: 10px;
+}
+
+.tile-configurator-item-component label {
+  font-weight: bolder;
+}
+
+.tile-configurator-item-component input {
+  width: 280px;
+  padding: 5px;
+  border: thin solid $grey;
+}
+
+.item-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-nav svg {
+  margin: 10px;
+
+}
+
+.tile-configurator-form {
+  display: flex;
+
+}
+
+.tile-configurator-item-img {
+  margin: 0 30px 0 30px;
+  background: $white;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  border: thin solid black;
+}
+
+.item-info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 10px;
+}
+
+.item-info div {
+  display: flex;
+  flex-direction: column;
+}
